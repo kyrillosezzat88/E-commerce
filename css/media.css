@@ -1,0 +1,39 @@
+@media all and (max-width:480px){
+    .review{
+        width:85%;
+        margin-top:50px;
+    }
+}
+
+@media all and (max-width:720px){
+    .slider .navbar .navbar-brand{color:#222}
+    .slider .navbar{
+        background-color:#fff;
+        color:#222;
+        position: relative;
+    }
+    .slider .navbar .navbar-toggler span{color:#222}
+    .slider .navbar-collapse .nav-link{color:#222 !important;}
+    .slider .fa-shopping-cart{
+        color:#222
+    }
+    .cart{
+        margin-right: -115px;
+    }
+    .shopping-cart .data{
+        min-width: 100%;
+        overflow-x: scroll;
+    }
+    .details .addToCart{
+        margin-left:80px;
+    }
+    .description p{
+        padding:0px 20px;
+    }
+    .description .rev{
+        padding:0;
+    }
+    .review textarea{
+        width:230px;
+    }
+}
